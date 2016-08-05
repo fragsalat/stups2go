@@ -225,6 +225,7 @@ Resources:
             -
               Effect: "Allow"
               Action:
+                - "acm:List*"
                 - "autoscaling:*"
                 - "aws-portal:View*"
                 - "cloudformation:*"
