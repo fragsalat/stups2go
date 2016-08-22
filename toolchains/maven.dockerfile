@@ -1,4 +1,4 @@
-FROM registry.opensource.zalan.do/stups/openjdk:8-28
+FROM registry.opensource.zalan.do/stups/openjdk:8-34
 
 RUN apt-get update && apt-get install -y maven bzip2
 
