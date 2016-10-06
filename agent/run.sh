@@ -11,6 +11,7 @@ chown -R go:go /var/go
 # setup auto registration
 echo "agent.auto.register.key=$STUPS_GO_AGENT_REGISTRATION_KEY" >> /var/lib/go-agent/config/autoregister.properties
 echo "agent.auto.register.environments=$STUPS_GO_AGENT_ENVIRONMENTS" >> /var/lib/go-agent/config/autoregister.properties
+echo "agent.auto.register.resources=$STUPS_GO_AGENT_RESOURCES" >> /var/lib/go-agent/config/autoregister.properties
 
 # extract deploment files
 su go -c /extract-files.sh
