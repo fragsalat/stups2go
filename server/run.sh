@@ -27,6 +27,7 @@ echo "export SERVER_MAX_MEM=\$(java-dynamic-memory-opts)" >> /etc/default/go-ser
 
 # enable custom extensions
 mkdir -p /data/plugins/external
+rm -f /data/plugins/external/github-oauth-login-1.2.jar
 cp /*.jar /data/plugins/external
 
 # ensuring perimssions

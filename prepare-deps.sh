@@ -4,7 +4,7 @@
 FILES="
 https://download.go.cd/binaries/16.2.1-3027/deb/go-server-16.2.1-3027.deb>c80edfccbd42a37ffbe554fcac4c21c9>dd3381a0e73c4aba34e328674e97ace50958c208>server
 https://download.go.cd/binaries/16.2.1-3027/deb/go-agent-16.2.1-3027.deb>1e9c21f12e1fd41f36e157f86b113e29>d72f8e314499e69dfd56741a866f08cfa695def2>agent
-https://github.com/gocd-contrib/gocd-oauth-login/releases/download/v1.2/github-oauth-login-1.2.jar>31ad9ad1fe08452f73c56a44b035ee91>1bea6bb7da660544c1a4686e7ecf5d7c556e5fcd>server
+https://github.com/gocd-contrib/gocd-oauth-login/releases/download/v2.2/github-oauth-login-2.2.jar>27fbec946a3be22b7c8ab1153da43f5a>5dbce4fa0772de61dcc34c05b70e0719ecb79c0b>server
 "
 for f in $FILES; do
 	url=$(echo $f | cut -d'>' -f1)
